@@ -39,7 +39,7 @@ services:
     container_name: user_frontend
     restart: unless-stopped
     ports:
-      - "127.0.0.1:4530:80"
+      - "0.0.0.0:4530:80"
     depends_on:
       - backend
 
